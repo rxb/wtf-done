@@ -4,7 +4,7 @@ import dynamic from "next/dynamic"
 import styles from '../styles/Home.module.css'
 import { Fragment, useState, useEffect } from 'react';
 import TypeWriterEffect from '../components/react-typewriter-effect/typeWriterEffect';
-import {things, quips} from './config';
+import {things, quips} from '../wtfconfig';
 
 const Button = (props) => {
   return(
