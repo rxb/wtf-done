@@ -52,7 +52,7 @@ const ThingDone = (props) => {
                 textAlign: 'center',
                 color: 'rgba(0,0,0,.5)'
               }}>
-                Source: <a href={props.thing.sourceUrl} style={{textDecoration: 'underline'}} target="_blank">{props.thing.sourceName}</a>
+                Source: <a href={props.thing.sourceUrl} style={{textDecoration: 'underline'}}>{props.thing.sourceName}</a>
             </div>
           </div>
           <div className={styles.chunk}>
