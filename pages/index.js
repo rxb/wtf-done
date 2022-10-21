@@ -33,7 +33,7 @@ const ThingDone = (props) => {
 
   return(
       <div style={{display: 'flex', flex: 1, height: '100%', justifyContent: 'center', flexDirection: 'column'}}>
-        <div className={styles.chunk} style={{maxWidth: 700, margin: '0 auto'}}>
+        <div className={styles.chunk} style={{maxWidth: 680, margin: '0 auto'}}>
             <TypeWriterEffect
                 className={styles.title}
                 startDelay={100}
