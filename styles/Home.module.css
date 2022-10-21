@@ -1,6 +1,5 @@
 .outer{
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
+  min-height: 100%; 
   display: flex;
   flex-direction: column;
   padding: 16px;
