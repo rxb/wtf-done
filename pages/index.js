@@ -25,10 +25,10 @@ const ThingDone = (props) => {
   const revealExtras = () =>{
     setTimeout(()=>{
       setSourceVisible(true); 
-    }, 400);
+    }, 500);
     setTimeout(()=>{
       setQuipButtonVisible(true);
-    }, 1800);
+    }, 1900);
   }
 
   return(
