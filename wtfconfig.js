@@ -1,6 +1,6 @@
 export const things = [
    {
-     title: "Stopped all sorts of malarkey at home and abroad",
+     title: "Stopped all sorts of malarkey both at home and abroad",
      sourceUrl: "http://malarkey.com",
      sourceName: "Malarkey Magazine"
    },
