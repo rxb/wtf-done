@@ -45,7 +45,7 @@ export const Layout = (props) => {
             <meta name="description" content={props.pageDescription} />
             <link rel="icon" href="/favicon.ico" />
          </Head>
-         <div style={{minHeight: '100vh', display: 'flex', flexDirection: 'column', padding: 16}}>
+         <div className={styles.outer}>
             <Header />
             <div style={{flex: 1, display: 'flex', flexDirection: 'column'}}>
                {props.children}
