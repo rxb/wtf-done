@@ -39,7 +39,7 @@ const ThingDone = (props) => {
                 startDelay={100}
                 cursorColor="black"
                 text={props.thing.title}
-                typeSpeed={25}
+                typeSpeed={30}
                 multiTextDisplay={false}
                 afterTextComplete={ revealExtras }
               />
