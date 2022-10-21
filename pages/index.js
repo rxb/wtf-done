@@ -59,7 +59,7 @@ const ThingDone = (props) => {
             <div style={{
                 opacity: (quipButtonVisible) ? 1 : 0,
                 transform: `translate(0, ${quipButtonVisible ? 0 : 30}px) scale(${quipButtonVisible ? 1 : 0.9})`,
-                transition: 'all 100ms ease-out',
+                transition: 'all 120ms ease-out',
                 textAlign: 'center'
               }}>
               <Button onClick={props.onQuipClick}>
