@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 
 export const Header = (props) => {
    return(
-      <div style={{flex: 0, borderBottom: '1px solid black', paddingBottom: 16}}>
+      <div style={{flex: 0, borderBottom: '1px solid black', paddingBottom: 16, /*alignItems: 'center',*/ display: 'flex', flexDirection: 'column'}}>
          <Link href="/">
           <div style={{display: 'flex', flex: 0, alignItems: 'center'}} className={styles.clickable}>
             <div 
@@ -16,7 +16,8 @@ export const Header = (props) => {
               Biden Done So Far?
             </div>
           </div>
-          </Link>
+         </Link>
+         
         </div>
    )
 }
