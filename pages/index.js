@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import { Fragment, useState, useEffect } from 'react';
 import {Layout} from '../components/shared';
 import TypeWriterEffect from '../components/react-typewriter-effect/typeWriterEffect';
+import RevealText from '../components/revealText';
 import {things, quips} from '../wtfconfig';
 
 const Button = (props) => {
@@ -25,15 +26,17 @@ const ThingDone = (props) => {
   const revealExtras = () =>{
     setTimeout(()=>{
       setSourceVisible(true); 
-    }, 500);
+    }, 600);
     setTimeout(()=>{
       setQuipButtonVisible(true);
-    }, 2000);
+    }, 2600);
   }
 
   return(
       <div style={{display: 'flex', flex: 1, height: '100%', justifyContent: 'center', flexDirection: 'column'}}>
         <div className={styles.chunk} style={{maxWidth: 680, margin: '0 auto'}}>
+            
+            {/*
             <TypeWriterEffect
                 className={styles.title}
                 startDelay={100}
@@ -43,6 +46,13 @@ const ThingDone = (props) => {
                 multiTextDisplay={false}
                 afterTextComplete={ revealExtras }
               />
+            */}
+
+            <RevealText 
+              className={styles.title}
+              str={props.thing.title}
+              afterTextComplete={ revealExtras }
+              /> 
               
             <div style={{
                 opacity: (sourceVisible) ? 1 : 0,
@@ -67,8 +77,6 @@ const ThingDone = (props) => {
               </Button>        
             </div>
           </div>
-
-        
       </div>
   );
 }
