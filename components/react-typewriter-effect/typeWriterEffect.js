@@ -149,7 +149,7 @@ class TypeWriterEffect extends Component {
       <div ref={this.myRef} className={'react-typewriter-text-wrap'}>
         <div
           style={{ ...this.props.textStyle }}
-          className='react-typewriter-text'
+          className={`react-typewriter-text ${this.props.className}`}
         >
           {this.state.text}
           <div

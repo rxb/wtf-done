@@ -2,22 +2,86 @@
   padding-bottom: 24px;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+.title{
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.1;
+  margin: 12px 0;
+  text-align: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
+.button{
+  text-align:  center ;
+  display:  inline-block ;
+  min-width: 0;
+  text-align:  center ;
+  border-radius: 36px;
+  background:  white ;
+  padding:  14px 16px ;
+  cursor:  pointer ;
+  font-weight: 600;
+  color: blue;
 }
+
+.headerText{
+  font-size: 13px;
+  font-weight: 600;
+  color: #111;
+}
+
+.headerIcon{
+  background: blue;
+  background-image: url('/brandon-28.png');
+  background-size: cover;
+  border-radius: 28px;
+  height: 28px;
+  width: 28px;
+  margin-right: 6px;
+  box-shadow: 0 0 0 .5px rgba(0,0,0,.75);
+  box-sizing: content-box;
+}
+
+.footerText{
+  font-size: 13px;
+}
+
+.link{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.clickable{
+  cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  .title{
+    font-size: 56px;
+  }
+
+  .button{
+    font-size: 18px;
+    padding: 16px 20px;
+    line-height: 1;
+  }
+
+  .headerText{
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+.headerIcon{
+  border-radius: 32px;
+  height: 32px;
+  width: 32px;
+  margin-right: 7px;
+  background-image: url('/brandon-32.png');
+}
+
+.footerText{
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+}
+
