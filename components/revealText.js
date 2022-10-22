@@ -54,7 +54,9 @@ const RevealText = (props) => {
    
    useEffect(()=>{
       if(charsStr){
-         startReveal();
+         setTimeout(()=>{
+            startReveal();
+         }, 300);
       }
    }, [ charsStr ]);
 
