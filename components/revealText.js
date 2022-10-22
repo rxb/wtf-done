@@ -56,7 +56,7 @@ const RevealText = (props) => {
       if(charsStr){
          setTimeout(()=>{
             startReveal();
-         }, 300);
+         }, 200);
       }
    }, [ charsStr ]);
 
