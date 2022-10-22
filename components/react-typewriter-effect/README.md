@@ -1,1 +1,0 @@
-Patched version of https://github.com/kevoese/react-typewriter-effect

@@ -3,6 +3,26 @@ import Link from 'next/link'
 import { Fragment, useState, useEffect } from 'react';
 import styles from '../styles/Home.module.css'
 
+export const Button = (props) => {
+   const [buttonOpacity, setButtonOpacity] = useState(1);
+   return(
+      <div 
+         style={{opacity: buttonOpacity}}
+         onClick={props.onClick}
+         onMouseDown={()=>{
+         setButtonOpacity(0.75);
+         }}
+         onTouchStart={()=>{
+         setButtonOpacity(0.75);
+         }}
+         
+         className={styles.button}
+         >
+         {props.children}
+      </div>
+   );
+}
+
 export const Header = (props) => {
    return(
       <div className={styles.header} style={{flex: 0, borderBottom: '1px solid black', /*alignItems: 'center',*/ display: 'flex', flexDirection: 'column'}}>
