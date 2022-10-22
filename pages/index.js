@@ -7,9 +7,20 @@ import RevealText from '../components/revealText';
 import {things, quips} from '../wtfconfig';
 
 const Button = (props) => {
+
+  const [buttonScale, setButtonScale] = useState(1);
+
   return(
     <div 
+      style={{transform: `scale(${buttonScale})`}}
       onClick={props.onClick}
+      onMouseDown={()=>{
+        setButtonScale(1.075);
+      }}
+      onTouchStart={()=>{
+        setButtonScale(1.075);
+      }}
+      
       className={styles.button}
       >
       {props.children}
