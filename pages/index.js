@@ -15,10 +15,10 @@ const Button = (props) => {
       style={{transform: `scale(${buttonScale})`}}
       onClick={props.onClick}
       onMouseDown={()=>{
-        setButtonScale(1.075);
+        setButtonScale(1.05);
       }}
       onTouchStart={()=>{
-        setButtonScale(1.075);
+        setButtonScale(1.05);
       }}
       
       className={styles.button}
