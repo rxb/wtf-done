@@ -2,7 +2,13 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 16px;
+}
+
+.outerPadding{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 12px;
 }
 
 @supports (-webkit-touch-callout: none) {
@@ -25,7 +31,7 @@
 
 .button{
   text-align:  center ;
-  display:  inline-block ;
+  display:  inline-block;
   min-width: 0;
   text-align:  center ;
   border-radius: 36px;
@@ -36,8 +42,8 @@
   background-color: blue;
 }
 
-.header, .footer{
-
+.header, .footer, .main{
+  padding: 12px 0;
 }
 
 .headerText{
@@ -89,18 +95,26 @@
     line-height: 1.2;
   }
 
-.headerIcon{
-  border-radius: 32px;
-  height: 32px;
-  width: 32px;
-  margin-right: 7px;
-  background-image: url('/brandon-32.png');
-}
+  .headerIcon{
+    border-radius: 32px;
+    height: 32px;
+    width: 32px;
+    margin-right: 7px;
+    background-image: url('/brandon-32.png');
+  }
 
-.footerText{
-  font-size: 15px;
-  line-height: 1.2;
-}
+  .footerText{
+    font-size: 15px;
+    line-height: 1.2;
+  }
+
+  .outerPadding{
+    padding: 0 16px;
+  }
+
+  .header, .footer, .main{
+    padding: 16px 0;
+  }
 
 }
 

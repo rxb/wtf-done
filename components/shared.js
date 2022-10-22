@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 
 export const Header = (props) => {
    return(
-      <div style={{flex: 0, borderBottom: '1px solid black', paddingBottom: 16, /*alignItems: 'center',*/ display: 'flex', flexDirection: 'column'}}>
+      <div className={styles.header} style={{flex: 0, borderBottom: '1px solid black', /*alignItems: 'center',*/ display: 'flex', flexDirection: 'column'}}>
          <Link href="/">
           <div style={{display: 'flex', flex: 0, alignItems: 'center'}} className={styles.clickable}>
             <div 
@@ -24,7 +24,7 @@ export const Header = (props) => {
 
 export const Footer = (props) => {
    return(
-      <div style={{flex: 0, borderTop: '1px solid black', paddingTop: 16}}>
+      <div className={styles.footer} style={{flex: 0, borderTop: '1px solid black'}}>
           <div className={styles.footerText} style={{display: 'flex', justifyContent: 'space-between'}}>
             <Link href="/about">
                <span className={styles.link}>About</span>
@@ -46,11 +46,13 @@ export const Layout = (props) => {
             <link rel="icon" href="/favicon.ico" />
          </Head>
          <div className={styles.outer}>
+            <div className={styles.outerPadding}>
             <Header />
-            <div style={{flex: 1, display: 'flex', flexDirection: 'column'}}>
+            <div className={styles.main} style={{flex: 1, display: 'flex', flexDirection: 'column'}}>
                {props.children}
             </div>
             <Footer />
+            </div>
          </div>
       </Fragment>
    )
