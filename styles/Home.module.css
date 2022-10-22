@@ -1,9 +1,14 @@
 .outer{
   min-height: 100vh;
-  min-height: -webkit-fill-available;
   display: flex;
   flex-direction: column;
   padding: 16px;
+}
+
+@supports (-webkit-touch-callout: none) {
+  .outer {
+    min-height: -webkit-fill-available;
+  }
 }
 
 .chunk{
@@ -31,11 +36,17 @@
   background-color: blue;
 }
 
+.header, .footer{
+
+}
+
 .headerText{
   font-size: 13px;
   font-weight: 600;
   color: #111;
 }
+
+
 
 .headerIcon{
   background: blue;
