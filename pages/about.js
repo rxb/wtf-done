@@ -11,7 +11,7 @@ function About() {
       pageDescription=""
       >
       <div style={{display: 'flex', flex: 1, height: '100%', justifyContent: 'center', flexDirection: 'column'}}>
-        <div style={{width: 700, margin: '0 auto', textAlign: 'center'}}>
+        <div style={{maxWidth: 700, margin: '0 auto', textAlign: 'center'}}>
           <div className={styles.chunk}>
             <h1 className={styles.title}>About this site</h1>
           </div>
