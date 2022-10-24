@@ -20,9 +20,9 @@ function About() {
           </div>
           <div className={styles.chunk}>
             <ul style={{listStyle: 'none', margin: 0, padding: 0}}>
-              <li><a href="https://twitter.com/shavannam">@shavannam</a></li>
-              <li><a href="https://twitter.com/unclehighbrow">@unclehighbrow</a></li>
-              <li><a href="https://twitter.com/richardboenigk">@richardboenigk</a></li>
+              <li><a href="https://twitter.com/shavannam" className="link">@shavannam</a></li>
+              <li><a href="https://twitter.com/unclehighbrow" className="link">@unclehighbrow</a></li>
+              <li><a href="https://twitter.com/richardboenigk" className="link">@richardboenigk</a></li>
             </ul>
           </div>
         </div>
