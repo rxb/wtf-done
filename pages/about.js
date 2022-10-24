@@ -16,7 +16,13 @@ function About() {
             <h1 className={styles.title}>About this site</h1>
           </div>
           <div className={styles.chunk}>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>Often the question is asked, "What the fuck has Biden done so far?" Maybe it's because he doesn't spend a <a href="https://www.nytimes.com/interactive/2020/11/24/us/politics/trump-twitter-tweets-election-results.html">lot of time tweeting</a> or <a href="https://www.nytimes.com/interactive/2020/04/26/us/politics/trump-coronavirus-briefings-analyzed.html">giving himself compliments</a> in front of TV cameras. Instead, he's been hard at work getting things done. So to pick up the slack, this site is a collection of some of the top accomplishments since January 2021. Let's go, Brandon!</p>
+            <p></p>
+            <ul>
+              <li><a href="https://twitter.com/shavannam">@shavannam</a></li>
+              <li><a href="https://twitter.com/unclehighbrow">@unclehighbrow</a></li>
+              <li><a href="https://twitter.com/richardboenigk">@richardboenigk</a></li>
+            </ul>
           </div>
         </div>
       </div>
