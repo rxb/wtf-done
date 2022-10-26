@@ -1,3 +1,5 @@
+// for build
+
 export const things = [
   {
     "title": "Historic appointment of Justice Ketanji Brown Jackson, the first Black woman to serve on the Supreme Court",
