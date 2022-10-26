@@ -44,8 +44,8 @@ const ThingDone = (props) => {
           <div className={styles.chunk}>
             <div style={{
                 opacity: (quipButtonVisible) ? 1 : 0,
-                transform: `translate(0, ${quipButtonVisible ? 0 : 20}px) scale(${quipButtonVisible ? 1 : 0.9})`,
-                transition: 'all 100ms ease-out',
+                transform: `translate(0, ${quipButtonVisible ? 0 : 10}px) scale(${quipButtonVisible ? 1 : 0.93})`,
+                transition: 'all 80ms ease-out',
                 textAlign: 'center'
               }}>
               <Button onClick={props.onQuipClick}>
