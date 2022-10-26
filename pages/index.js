@@ -17,11 +17,11 @@ const ThingDone = (props) => {
     }, 600);
     setTimeout(()=>{
       setQuipButtonVisible(true);
-    }, 2600);
+    }, 1600);
   }
 
   return(
-      <div style={{display: 'flex', flex: 1, height: '100%', justifyContent: 'center', flexDirection: 'column'}}>
+      <div style={{display: 'flex', flex: 1, height: '100%', justifyContent: 'center', flexDirection: 'column', padding: '0 12px'}}>
         <div className={styles.chunk} style={{maxWidth: 680, margin: '0 auto'}}>
             
             <RevealText 
@@ -60,7 +60,7 @@ const ThingDone = (props) => {
 
 function Home() {
   const [thingCursor, setThingCursor] = useState(0);
-  const [thing, setThing] = useState(things[0]);
+  const [thing, setThing] = useState(things[Math.floor(Math.random() * things.length)]);
   const [quip, setQuip] = useState(quips[0]);
   const [isBrowser, setIsBrowser] = useState(false);
 
@@ -72,8 +72,9 @@ function Home() {
     const thisThingCursor = (thingCursor + 1 < things.length) ? thingCursor + 1 : 0; 
     setThingCursor(thisThingCursor);
     setThing(things[thisThingCursor]);
-    const thisQuipCursor = Math.floor(Math.random() * quips.length);
-    setQuip(quips[thisQuipCursor]);
+    const thisQuips = quips.filter( q => quip != q );
+    const thisQuipCursor = Math.floor(Math.random() * thisQuips.length);
+    setQuip(thisQuips[thisQuipCursor]);
   }
 
   return (
