@@ -102,11 +102,11 @@ export const things = [
 
  export const quips = [
   "Big fucking deal. What else?",
-  "But what has he done for me lately?",
+  "But what's he done for me lately?",
   "I'm unimpressed",
   "I could do that in my sleep",
-  "That doesn't affect me personally so who cares",
+  "Doesn't affect me so who cares",
   "Yeah, AND?",
-  "That's cool, I guess. What else you got?",
+  "Cool, I guess. What else you got?",
   "Yeah, but I just don't like his face"
  ]
