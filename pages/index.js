@@ -17,7 +17,7 @@ const ThingDone = (props) => {
     }, 100);
     setTimeout(()=>{
       setQuipButtonVisible(true);
-    }, 700);
+    }, 600);
   }
 
   return(
