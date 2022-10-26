@@ -3,14 +3,6 @@ export const things = [
     "title": "Historic appointment of Justice Ketanji Brown Jackson, the first Black woman to serve on the Supreme Court",
     "sourceName": "Reuters",
     "sourceUrl": "https://www.reuters.com/world/us/ketanji-brown-jackson-be-sworn-first-black-woman-us-supreme-court-2022-06-30/"
-  }
-];
-/*
-export const things = [
-  {
-    "title": "Historic appointment of Justice Ketanji Brown Jackson, the first Black woman to serve on the Supreme Court",
-    "sourceName": "Reuters",
-    "sourceUrl": "https://www.reuters.com/world/us/ketanji-brown-jackson-be-sworn-first-black-woman-us-supreme-court-2022-06-30/"
   },
   {
     "title": "Passed a $1.2 Trillion infratructure package with bipartisan support",
@@ -103,7 +95,7 @@ export const things = [
     "sourceUrl": "https://thehill.com/regulation/administration/549310-biden-administration-extends-universal-free-school-lunch-through/"
   }
  ];
- */
+ 
  
 
  export const quips = [
