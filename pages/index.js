@@ -14,10 +14,10 @@ const ThingDone = (props) => {
   const revealExtras = () =>{
     setTimeout(()=>{
       setSourceVisible(true); 
-    }, 600);
+    }, 200);
     setTimeout(()=>{
       setQuipButtonVisible(true);
-    }, 1600);
+    }, 1000);
   }
 
   return(
@@ -44,8 +44,8 @@ const ThingDone = (props) => {
           <div className={styles.chunk}>
             <div style={{
                 opacity: (quipButtonVisible) ? 1 : 0,
-                transform: `translate(0, ${quipButtonVisible ? 0 : 30}px) scale(${quipButtonVisible ? 1 : 0.9})`,
-                transition: 'all 120ms ease-out',
+                transform: `translate(0, ${quipButtonVisible ? 0 : 20}px) scale(${quipButtonVisible ? 1 : 0.9})`,
+                transition: 'all 100ms ease-out',
                 textAlign: 'center'
               }}>
               <Button onClick={props.onQuipClick}>
