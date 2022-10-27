@@ -64,8 +64,18 @@ function Home() {
   const [quip, setQuip] = useState(quips[0]);
   const [isBrowser, setIsBrowser] = useState(false);
 
+  const setDocumentHeight = () => {
+    const doc = document.documentElement
+    doc.style.setProperty('--doc-height', `${window.innerHeight}px`)
+  }
+
   useEffect( () =>{
     setIsBrowser(true);
+    window.addEventListener('resize', setDocumentHeight);
+    setDocumentHeight();
+    return _ => {
+      window.removeEventListener('resize', setDocumentHeight);
+    }
   }, [])
 
   const newThing = () => {
