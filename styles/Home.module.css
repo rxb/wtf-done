@@ -1,7 +1,7 @@
 .outer{
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .outerPadding{
@@ -9,12 +9,7 @@
   display: flex;
   flex-direction: column;
   padding: 0 12px;
-}
-
-@supports (-webkit-touch-callout: none) {
-  .outer {
-    min-height: -webkit-fill-available;
-  }
+  height: 100%;
 }
 
 .chunk{
