@@ -102,7 +102,7 @@ export const Layout = (props) => {
             <title>What The Fuck Has Biden Done So Far? {(props.pageTitle) ? ` - ${props.pageTitle}` : ''}</title>
             <meta name="description" content="Often the question is asked, 'What the fuck has Biden done so far?'" />
             <meta property="og:title" content="What The Fuck Has Biden Done So Far?" />
-            <meta property="og:description" content="Often the question is asked, 'What the fuck has Biden done so far?'" />
+            <meta property="og:description" content="Often the question is asked..." />
             <meta property="og:image" content="/brandon-social.jpg" />
             <meta property="og:type" content="website" />
             <link rel="icon" href="/favicon.ico" />
