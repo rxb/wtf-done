@@ -42,7 +42,7 @@ export const things = [
     "sourceUrl": "https://www.cnbc.com/2022/08/16/bidens-new-corporate-tax-hike-wont-be-material-to-most-us-companies.html"
   },
   {
-    "title": "Rejoined the Paris agreement ",
+    "title": "Rejoined the Paris agreement on climate change",
     "sourceName": "NPR",
     "sourceUrl": "https://www.npr.org/2021/02/19/969387323/u-s-officially-rejoins-paris-agreement-on-climate-change"
   },
@@ -67,7 +67,7 @@ export const things = [
     "sourceUrl": "https://www.forbes.com/sites/joewalsh/2021/07/01/biden-administration-orders-halt-on-federal-executions-after-surge-under-trump/?sh=5bd6a3ff6e63"
   },
   {
-    "title": "Approved access to abortion pills by mail ",
+    "title": "Approved access to abortion pills by mail",
     "sourceName": "The New York Times",
     "sourceUrl": "https://www.nytimes.com/2021/12/16/health/abortion-pills-fda.html"
   },
@@ -82,7 +82,7 @@ export const things = [
     "sourceUrl": "https://www.nbcnews.com/feature/nbc-out/biden-administration-extends-housing-protections-lgbtq-people-n1257468"
   },
   {
-    "title": "First Senate confirmed LGBTQ Cabinet Secretary",
+    "title": "First Senate-confirmed LGBTQ Cabinet Secretary",
     "sourceName": "Reuters",
     "sourceUrl": "https://www.reuters.com/article/us-usa-biden-transportation/pete-buttigieg-becomes-first-openly-gay-cabinet-secretary-confirmed-by-u-s-senate-idUSKBN2A22IQ"
   },
@@ -92,7 +92,7 @@ export const things = [
     "sourceUrl": "https://www.washingtonpost.com/politics/2021/01/27/biden-reversed-trumps-muslim-ban-americans-support-that-decision/"
   },
   {
-    "title": "Free School Lunches for all kids in 2021-2022",
+    "title": "Free school lunches for all kids in 2021-2022",
     "sourceName": "The Hill",
     "sourceUrl": "https://thehill.com/regulation/administration/549310-biden-administration-extends-universal-free-school-lunch-through/"
   }

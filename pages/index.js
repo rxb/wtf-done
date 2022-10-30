@@ -6,6 +6,8 @@ import RevealText from '../components/revealText';
 import {things, quips} from '../wtfconfig';
 
 
+
+
 const ThingDone = (props) => {
   
   const [sourceVisible, setSourceVisible] = useState(false);
@@ -17,7 +19,7 @@ const ThingDone = (props) => {
     }, 100);
     setTimeout(()=>{
       setQuipButtonVisible(true);
-    }, 600);
+    }, 1200);
   }
 
   return(
@@ -45,7 +47,7 @@ const ThingDone = (props) => {
             <div style={{
                 opacity: (quipButtonVisible) ? 1 : 0,
                 transform: `translate(0, ${quipButtonVisible ? 0 : 10}px) scale(${quipButtonVisible ? 1 : 0.93})`,
-                transition: 'all 80ms ease-out',
+                transition: 'all 110ms ease-out',
                 textAlign: 'center'
               }}>
               <Button onClick={props.onQuipClick}>
@@ -88,10 +90,7 @@ function Home() {
   }
 
   return (
-    <Layout
-      pageTitle=""
-      pageDescription="Often the question has been asked, 'WTF Has Biden Done So Far?'"
-      >
+    <Layout>
         { isBrowser ?
           <ThingDone key={thingCursor} thing={thing} quip={quip} onQuipClick={newThing} />
         :
