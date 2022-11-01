@@ -66,7 +66,7 @@ export const Header = (props) => {
                onClick={()=>{
                   shareIt({
                      text: "What The Fuck Has Biden Done So Far?",
-                     url: 'https://wtf-done-rbgk.vercel.app/'
+                     url: 'https://wtfhasbidendonesofar.com/'
                   });
                }}
                >
