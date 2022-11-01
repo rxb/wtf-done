@@ -7,7 +7,7 @@ export const things = [
     "sourceUrl": "https://www.reuters.com/world/us/ketanji-brown-jackson-be-sworn-first-black-woman-us-supreme-court-2022-06-30/"
   },
   {
-    "title": "Passed a $1.2 Trillion infratructure package with bipartisan support",
+    "title": "Passed a $1.2 Trillion infrastructure package with bipartisan support",
     "sourceName": "CNN",
     "sourceUrl": "https://www.cnn.com/2021/11/05/politics/house-votes-infrastructure-build-back-better/index.html"
   },
