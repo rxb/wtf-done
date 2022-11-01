@@ -101,7 +101,7 @@ export const Layout = (props) => {
          <Head>
             <title>What The Fuck Has Biden Done So Far? {(props.pageTitle) ? ` - ${props.pageTitle}` : ''}</title>
             <meta name="description" content="Often the question is asked, 'What the fuck has Biden done so far?'" />
-            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:card" content="summary_large_image" />
             <meta property="og:title" content="What The Fuck Has Biden Done So Far?" />
             <meta property="og:description" content="Often the question is asked..." />
             <meta property="twitter:image" content="https://wtfhasbidendonesofar.com/brandon-social.jpg" />
