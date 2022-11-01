@@ -84,11 +84,11 @@ export const Footer = (props) => {
    return(
       <div className={styles.footer} style={{flex: 0, borderTop: '1px solid black'}}>
           <div className={styles.footerText} style={{display: 'flex', justifyContent: 'space-between'}}>
-            <Link href="/about">
-               <span className={styles.link}>About</span>
-            </Link>
-            <a href="" className={styles.link} onClick={(e)=>{ e.preventDefault(); alert('need to find a good site for this'); }}>
-              Find your voting place&hellip;
+            <a href="https://twitter.com/wtfhasbidendone">
+               <span className={styles.link}>@wtfhasbidendone</span>
+            </a>
+            <a href="https://turbovote.org" className={styles.link}>
+              Make a plan to vote &#8599;
             </a>
           </div>
         </div>
