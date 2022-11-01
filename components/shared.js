@@ -104,6 +104,7 @@ export const Layout = (props) => {
             <meta name="twitter:card" content="summary" />
             <meta property="og:title" content="What The Fuck Has Biden Done So Far?" />
             <meta property="og:description" content="Often the question is asked..." />
+            <meta property="twitter:image" content="https://wtfhasbidendonesofar.com/brandon-social.jpg" />
             <meta property="og:image" content="https://wtfhasbidendonesofar.com/brandon-social.jpg" />
             <meta property="og:type" content="website" />
             <link rel="icon" href="/favicon.ico" />
