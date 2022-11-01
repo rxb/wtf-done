@@ -95,7 +95,25 @@ export const things = [
     "title": "Free school lunches for all kids in 2021-2022",
     "sourceName": "The Hill",
     "sourceUrl": "https://thehill.com/regulation/administration/549310-biden-administration-extends-universal-free-school-lunch-through/"
-  }
+  },
+  {
+    "title": "Cut Obamacare insurance premiums by an average of 40%",
+    "sourceName": "Bloomberg",
+    "sourceUrl": "https://www.bloomberg.com/news/articles/2021-08-04/biden-stimulus-increase-cut-obamacare-plan-premiums-by-40"
+  },
+  {
+    "title": "Cut US budget deficit in half -- the biggest decrease ever",
+    "sourceName": "Reuters",
+    "sourceUrl": "https://www.reuters.com/markets/us/us-fy-2022-budget-deficit-halves-1375-trln-despite-student-loan-costs-2022-10-21/"
+  },
+  
+  /*
+  {
+    "title": "",
+    "sourceName": "",
+    "sourceUrl": ""
+  },
+  */
  ];
  
  
