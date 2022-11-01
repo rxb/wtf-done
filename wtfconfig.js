@@ -22,7 +22,7 @@ export const things = [
     "sourceUrl": "https://www.npr.org/2022/06/28/1108377094/closing-the-boyfriend-loophole-with-gun-legislation"
   },
   {
-    "title": "Ended the longest American war in history by pulling out of Afghanistan",
+    "title": "Ended the longest war in American history by pulling out of Afghanistan",
     "sourceName": "USA Today",
     "sourceUrl": "https://www.usatoday.com/story/news/2021/08/01/bidens-afghanistan-withdrawal-ends-our-longest-war-heres-what-know/5419418001/"
   },
@@ -87,7 +87,7 @@ export const things = [
     "sourceUrl": "https://www.reuters.com/article/us-usa-biden-transportation/pete-buttigieg-becomes-first-openly-gay-cabinet-secretary-confirmed-by-u-s-senate-idUSKBN2A22IQ"
   },
   {
-    "title": "Repealed Trump's Muslim Ban",
+    "title": "Repealed Trump's 'Muslim Ban'",
     "sourceName": "The Washington Post",
     "sourceUrl": "https://www.washingtonpost.com/politics/2021/01/27/biden-reversed-trumps-muslim-ban-americans-support-that-decision/"
   },
