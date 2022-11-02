@@ -3,10 +3,8 @@ import styles from '../styles/Home.module.css'
 import { Fragment, useState, useEffect } from 'react';
 import {Layout, Button} from '../components/shared';
 import RevealText from '../components/revealText';
-import {things, quips} from '../wtfconfig';
-
-
-
+import {things as unsortedThings, quips} from '../wtfconfig';
+const things = [...unsortedThings].sort(() => 0.5 - Math.random());
 
 const ThingDone = (props) => {
   
@@ -62,7 +60,8 @@ const ThingDone = (props) => {
 
 function Home() {
   const [thingCursor, setThingCursor] = useState(0);
-  const [thing, setThing] = useState(things[Math.floor(Math.random() * things.length)]);
+  //const [thing, setThing] = useState(things[Math.floor(Math.random() * things.length)]);
+  const [thing, setThing] = useState(things[0]);
   const [quip, setQuip] = useState(quips[0]);
   const [isBrowser, setIsBrowser] = useState(false);
 

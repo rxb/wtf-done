@@ -102,11 +102,45 @@ export const things = [
     "sourceUrl": "https://www.bloomberg.com/news/articles/2021-08-04/biden-stimulus-increase-cut-obamacare-plan-premiums-by-40"
   },
   {
-    "title": "Cut US budget deficit in half -- the biggest decrease ever",
+    "title": "Cut US budget deficit in half — the biggest decrease ever",
     "sourceName": "Reuters",
     "sourceUrl": "https://www.reuters.com/markets/us/us-fy-2022-budget-deficit-halves-1375-trln-despite-student-loan-costs-2022-10-21/"
   },
-
+  {
+    "title": "Restored daily White House press briefings",
+    "sourceName": "ABC",
+    "sourceUrl": "https://www.abc.net.au/news/2021-01-21/first-white-house-press-briefing-jen-psaki-biden-trump/13078034"
+  },
+  {
+    "title": "Ordered end of federal contracts with private prison industry",
+    "sourceName": "Associated Press",
+    "sourceUrl": "https://apnews.com/article/joe-biden-race-and-ethnicity-prisons-coronavirus-pandemic-c8c246f00695f37ef2afb1dd3a5f115e"
+  },
+    {
+    "title": "Funded the construction of 500,000 new electric vehicle stations",
+    "sourceName": "Electrek",
+    "sourceUrl": "https://electrek.co/2021/12/13/white-house-plan-grow-us-ev-charging-network-500000-stations/"
+  },
+    {
+    "title": "$47 billion to protect areas hit by increased flooding, hurricanes and wildfires",
+    "sourceName": "New York Times",
+    "sourceUrl": "https://www.nytimes.com/2021/11/15/us/politics/whats-in-the-infrastructure-bill.html"
+  },
+  {
+    "title": "Largest-ever investment in repairing America's bridges",
+    "sourceName": "Railway Track & Structures",
+    "sourceUrl": "https://www.rtands.com/track-construction/track-structure/bridges-tunnels/first-leg-of-record-setting-bridge-funding-is-announced/"
+  },
+  {
+    "title": "$65 billion to bring high speed internet access to rural & underserved areas",
+    "sourceName": "Fierce Telecom",
+    "sourceUrl": "https://www.fiercetelecom.com/telecom/broadband-gets-65-billion-u-s-infrastructure-bill-here-s-what-happens-next"
+  },
+    {
+    "title": "Created new health research agency to cut cancer deaths by 50%",
+    "sourceName": "New York Times",
+    "sourceUrl": "https://www.nytimes.com/2022/02/02/us/politics/biden-cancer-moonshot.html"
+  },
   /*
   {
     "title": "",
