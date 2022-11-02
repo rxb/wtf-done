@@ -47,7 +47,7 @@ export const things = [
     "sourceUrl": "https://www.npr.org/2021/02/19/969387323/u-s-officially-rejoins-paris-agreement-on-climate-change"
   },
   {
-    "title": "Capped prescription drug prices at $2k per year for seniors on Medicare through the Inflation Reduction Act.",
+    "title": "Capped prescription drug prices at $2k per year for seniors on Medicare through the Inflation Reduction Act",
     "sourceName": "The Hill",
     "sourceUrl": "https://thehill.com/opinion/congress-blog/3676791-people-are-underestimating-the-significance-of-drug-pricing-provisions-in-inflation-reduction-act/"
   },
@@ -62,7 +62,7 @@ export const things = [
     "sourceUrl": "https://www.npr.org/2022/03/09/1085495317/the-violence-against-women-act-catches-a-ride-on-1-5-trillion-spending-bill"
   },
   {
-    "title": "Halted all federal executions after the previous administration reinstated them after a 17-year freeze.",
+    "title": "Halted all federal executions after the previous administration reinstated them after a 17-year freeze",
     "sourceName": "Forbes",
     "sourceUrl": "https://www.forbes.com/sites/joewalsh/2021/07/01/biden-administration-orders-halt-on-federal-executions-after-surge-under-trump/?sh=5bd6a3ff6e63"
   },
@@ -106,7 +106,7 @@ export const things = [
     "sourceName": "Reuters",
     "sourceUrl": "https://www.reuters.com/markets/us/us-fy-2022-budget-deficit-halves-1375-trln-despite-student-loan-costs-2022-10-21/"
   },
-  
+
   /*
   {
     "title": "",
